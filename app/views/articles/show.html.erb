@@ -1,0 +1,14 @@
+<div class="header">
+  <h1><%=@article.title%></h1>
+  <%= link_to edit_article_path do %>
+    <i class="far fa-edit"></i>
+  <% end %>
+  <%= link_to article_path(@article),
+              method: :delete,
+              data: {Confirm: "Are you sure?"} do %>
+    <i class="fas fa-trash-alt"></i>
+  <% end %>
+</div>
+<p><%=@article.content%></p>
+
+<%= link_to "Take me home", articles_path %>

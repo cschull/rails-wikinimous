@@ -1,0 +1,25 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+ul {
+  list-style: none;
+}
+
+.description {
+  color: grey;
+}
+
+.new-article {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.fa-edit {
+  padding: 10px;
+}
