@@ -23,3 +23,22 @@ ul {
 .fa-edit {
   padding: 10px;
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.article-title a{
+  text-decoration: none;
+  color: #337AB7;
+  font-weight: 500;
+}
+
+.main-header {
+  display:flex;
+  justify-content: space-between;
+  margin: 20px;
+  margin-right: 50px;
+  align-items: center;
+}
